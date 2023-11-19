@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.App>div {
+  flex: 1;
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.user-list li {
+  cursor: pointer;
+}
+
+.user-list li:hover {
+  color: pink;
+}
